@@ -26,11 +26,11 @@ Graf Teorisi ve Algoritmaları:
   (depth-first search - DFS) algoritmalarıdır. BFS algoritması, herhangi bir düğümden başlayarak grafın her bir düğümüne erişene kadar işlem yapar.
   DFS algoritması ise, başlangıç düğümünden başlayarak mümkün olan en derine iner ve oradan geri çıkar.
   
-    Graf teorisi, özellikle optimize etmek istediğimiz bir sistemin veya problemin modellenmesinde kullanılabilir. Bu durumda, graf teorisi algoritmaları,
-  birçok uygulama alanında kullanılır. Örneğin, yol bulma, ağ yönlendirme, optimizasyon problemleri ve veri işleme gibi alanlarda graf teorisi algoritmaları 
-  yaygın olarak kullanılır. Bu algoritmalar, çözümlemesi zor olan problemleri etkili bir şekilde çözmeye yardımcı olur. Bazı popüler graf teorisi algoritmaları
-  arasında Dijkstra, Bellman-Ford, Kruskal ve Prim algoritmaları bulunmaktadır. Bu algoritmalar, farklı problemler için farklı avantajlara sahiptir ve 
-  doğru şekilde seçildiğinde, problemi daha hızlı ve daha verimli bir şekilde çözmeye yardımcı olur.
+    Graf teorisi, özellikle optimize etmek istediğimiz bir sistemin veya problemin modellenmesinde kullanılabilir. Bu durumda, graf teorisi 
+    algoritmaları, birçok uygulama alanında kullanılır. Örneğin, yol bulma, ağ yönlendirme, optimizasyon problemleri ve veri işleme gibi alanlarda 
+    graf teorisi algoritmaları yaygın olarak kullanılır. Bu algoritmalar, çözümlemesi zor olan problemleri etkili bir şekilde çözmeye yardımcı olur. 
+    Bazı popüler graf teorisi algoritmaları arasında Dijkstra, Bellman-Ford, Kruskal ve Prim algoritmaları bulunmaktadır. Bu algoritmalar, farklı 
+    problemler için farklı avantajlara sahiptir ve doğru şekilde seçildiğinde, problemi daha hızlı ve daha verimli bir şekilde çözmeye yardımcı olur.
   
 Dijkstra, Bellman-Ford, Kruskal ve Prim algoritmalarını kısaca tanımlayacak olursak: 
 
@@ -59,7 +59,8 @@ Prim Algoritması:
 Breadth First Search (Geniş Öncelikli Arama) Graf Algoritması
     Breadth First Search (BFS) algoritması, bir graf veya ağaç veri yapısında gezinerek, belirli bir özellik veya hedef düğümü bulmak 
   için kullanılan etkili bir arama algoritmasıdır. BFS, ağacın kökünden başlar ve her seviyedeki düğümleri öncelikli olarak ziyaret ederek, 
-  daha sonra bir sonraki seviyedeki düğümlere geçer. BFS algoritması, genellikle en kısa yol veya en az maliyetli yolu bulmak gibi birçok uygulamada kullanılır.
+  daha sonra bir sonraki seviyedeki düğümlere geçer. BFS algoritması, genellikle en kısa yol veya en az maliyetli yolu bulmak gibi birçok uygulamada
+  kullanılır.
   
     BFS algoritması, genellikle Queue adı verilen bir veri yapısı kullanır. Queue, bir veri yapısıdır ve ilk giren ilk çıkar (FIFO) mantığına 
   sahip bir dizi olarak düşünülebilir. BFS algoritması, Queue veri yapısının ilk girdiği düğümü çıkarır ve ziyaret eder. Daha sonra, bu düğümün 
@@ -70,12 +71,13 @@ Breadth First Search (Geniş Öncelikli Arama) Graf Algoritması
   nedenle genellikle büyük veri yapıları üzerinde kullanılır.
   
     BFS algoritmasının zaman karmaşıklığı O(N) olarak hesaplanır, çünkü her düğümü yalnızca bir kez ziyaret eder. Bu nedenle, BFS algoritması, 
-  büyük veri yapılarında bile hızlı ve verimli bir şekilde çalışır. Bununla birlikte, BFS algoritması, bellek kullanımı açısından bazı zorluklar sunabilir. 
-  Özellikle, BFS algoritması, tüm düğümleri bir kuyrukta tuttuğu için, bellek kullanımı büyük veri yapıları için sorun olabilir.
+  büyük veri yapılarında bile hızlı ve verimli bir şekilde çalışır. Bununla birlikte, BFS algoritması, bellek kullanımı açısından bazı zorluklar 
+  sunabilir. Özellikle, BFS algoritması, tüm düğümleri bir kuyrukta tuttuğu için, bellek kullanımı büyük veri yapıları için sorun olabilir.
   
-    Sonuç olarak, BFS algoritması, graf veya ağaç veri yapılarında belirli bir özelliği aramak veya en kısa yolu veya en az maliyetli yolu bulmak için 
-  çok kullanışlı bir algoritmadır. BFS algoritması, Queue veri yapısını kullanarak çalışır ve her düğümü yalnızca bir kez ziyaret eder. Bu nedenle, 
-  BFS algoritması, hızlı ve verimli bir şekilde çalışır ve büyük veri yapılarında bile etkili bir şekilde kullanılabilir.
+    Sonuç olarak, BFS algoritması, graf veya ağaç veri yapılarında belirli bir özelliği aramak veya en kısa yolu veya en az maliyetli yolu 
+    bulmak için çok kullanışlı bir algoritmadır. BFS algoritması, Queue veri yapısını kullanarak çalışır ve her düğümü yalnızca bir kez 
+    ziyaret eder. Bu nedenle, BFS algoritması, hızlı ve verimli bir şekilde çalışır ve büyük veri yapılarında bile etkili bir 
+    şekilde kullanılabilir.
 
 
 BFS (Breadth First Search) ve DFS (Depth First Search) Graf Algoritmaları Arasındaki Fark 
@@ -122,8 +124,8 @@ BFS Algoritması Zaman (Time Complexity ) ve Alan Karmaşıklığı (Space Comle
     
 Zaman Karmaşıklığı:
     İyi Durum: BFS algoritması en kısa yolu bulduğunda, yani aranan düğümün kök düğümden yakınsak bir şekilde bulunduğunda, her düğüm yalnızca 
-  bir kez ziyaret edilir. Bu durumda, algoritmanın zaman karmaşıklığı O (1 + E/V) şeklinde ifade edilir. Burada E, kenar sayısı ve V, düğüm sayısıdır. 
-  Bu durumda, BFS algoritması O(E/V) zaman karmaşıklığına sahiptir.
+  bir kez ziyaret edilir. Bu durumda, algoritmanın zaman karmaşıklığı O (1 + E/V) şeklinde ifade edilir. Burada E, kenar sayısı ve V, 
+  düğüm sayısıdır. Bu durumda, BFS algoritması O(E/V) zaman karmaşıklığına sahiptir.
   
     Orta Durum: Graf yapısı dengeli olmayan bir yapıya sahip olduğunda, BFS algoritması yine her düğümü yalnızca bir kez ziyaret eder. Ancak bu 
   durumda işlem sayısı artar ve zaman karmaşıklığı O(E+V) olur.
