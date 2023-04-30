@@ -1,6 +1,6 @@
-# Breadth_First_Search => Breadth First Search Algoritması " Program.cs " main kısmında yazılmıştır.
-Barash Serbest - 5220505051 - BFS Algorithm - C#
-
+# Breadth_First_Search  
+Barash Serbest - 5220505051 - BFS Algorithm - C# 
+Breadth First Search Algoritması " Program.cs " main kısmında yazılmıştır.
 Algoritma Analizi Ödev // README kısmı dosyalar içerisinde Word dosyası olarakta yer almakta.
 
 
